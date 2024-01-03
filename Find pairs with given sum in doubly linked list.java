@@ -1,4 +1,14 @@
+import java.util.*;
 
+class Node{
+    int data;
+    Node next;
+    Node(int data)
+    {
+        this.data = data;
+        next = null;
+    }
+}
 class Solution {
     public static ArrayList<ArrayList<Integer>> findPairsWithGivenSum(int target, Node head) {
         // code here
@@ -20,3 +30,4 @@ class Solution {
         }
         return ans;
     }
+}
